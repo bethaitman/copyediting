@@ -4,7 +4,7 @@ title: Contact
 ---
 
 {% include header.html %}
-<div class="content">
+<div class="content flex-item">
   {% capture my_include %}{% include contact.md %}{% endcapture %}
   {{ my_include | markdownify }}
 </div>
