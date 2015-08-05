@@ -1,0 +1,61 @@
+body {
+	font-family: Lato;
+	box-sizing: border-box;
+}
+
+#layout {
+	margin-top: 40px;
+	position: relative;
+}
+
+.Header {
+  display: flex;
+  align-items: center;
+
+  height: 40px;
+  width: 100%;
+
+  position: fixed;
+  top: 0;
+}
+
+.Header-logo {
+	color: black;
+	font-weight: bold;
+	padding: 0 20px;
+  border-right: 1px solid #dddddd;
+}
+
+.Header-link {
+  color: #808184;
+  text-decoration: none;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 20px;
+}
+
+.Header-link:hover {
+  color: #2B2B2B;
+  text-decoration: underline;
+}
+
+.Header-link.active {
+  color: #2B2B2B;
+  border-bottom: solid 5px #009cde;
+}
+
+.Header-fadeIn {
+  opacity: 0;
+  -webkit-animation: Header-fadeIn--keyframes 3s 0.3s forwards;
+  animation: Header-fadeIn--keyframes 3s 0.3s forwards;
+}
+
+.content {
+	padding: 10px 20%;
+	height: 100%;
+}
+
+hr {
+  height: 2px;
+  background-color: #009cde;
+}
