@@ -41,6 +41,7 @@
 .top-section {
   background: url(assets/images/notebook.jpg);
   background-size: cover;
+  max-height: 100vh;
 }
 
 
