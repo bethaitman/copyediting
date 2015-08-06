@@ -5,6 +5,10 @@
 
 .Header {
   font-weight: bold;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .Header .pure-menu-heading {
@@ -25,9 +29,13 @@
   color: #009cde;
 }
 
+.wrapper {
+
+}
+
 
 .content {
-	padding: 40px 20%;
+	padding: 70px 20%;
 }
 
 .top-section {
