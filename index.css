@@ -1,5 +1,5 @@
 * {
-	font-family: Lato;
+	font-family: 'Sorts Mill Goudy', serif;
 	box-sizing: border-box;
 }
 
@@ -35,13 +35,13 @@
 
 
 .content {
-	padding: 70px 20%;
+	padding: 70px 40%;
 }
 
 .top-section {
-  background: url(assets/images/notebook.jpg);
+  background: url(assets/images/typewriter.jpg);
   background-size: cover;
-  max-height: 100vh;
+  min-height: 100vh;
 }
 
 
@@ -50,6 +50,6 @@
 }
 
 .transparent-black-background {
-  opacity: 0.7;
+  opacity: 0.8;
   background-color: #000;  
 }
