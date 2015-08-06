@@ -1,41 +1,24 @@
-body {
+* {
 	font-family: Lato;
 	box-sizing: border-box;
-  display:flex;
-  flex-direction: column;
-  position: relative;
-  background: url(assets/images/notebook.jpg) center center no-repeat;
 }
 
-.flex-item {
-  flex: 0 1 30px;
+body {
+  background: url(assets/images/notebook.jpg) center center no-repeat;
+  background-size: cover;
 }
 
 .Header {
-  display: flex 0 1 auto;
-  align-items: center;
-  width: 100%;
-
-  position: fixed;
-  top: 0;
   font-weight: bold;
-  opacity: 0.7;
-  background-color: #000;
 }
 
 .Header .pure-menu-heading {
-	color: #808184;
-	font-weight: bold;
 	padding: 0 20px;
-  border-right: 1px solid #808184;
+  border-right: 1px solid;
 }
 
 .Header .pure-menu-link {
-  color: #808184;
   text-decoration: none;
-  height: 40px;
-  line-height: 40px;
-  padding: 0 20px;
 }
 
 .Header .pure-menu-link:hover {
@@ -49,24 +32,20 @@ body {
 }
 
 .content {
-  flex: 1 1 auto;
 	padding: 40px 20%;
-	height: 100%; 
-}
-
-hr {
-  height: 2px;
-  background-color: #009cde;
 }
 
 footer {
-  flex: 0 1 40px;
-  align-items: center;
-  width: 100%;
-
   font-weight: bold;
-  opacity: 0.7;
-  background-color: #000;
-  color: white;
   padding: 5px 40px;
+}
+
+
+.grey-text {
+  color: #808184;
+}
+
+.transparent-black-background {
+  opacity: 0.7;
+  background-color: #000;  
 }
