@@ -44,6 +44,10 @@
   min-height: 100vh;
 }
 
+.bottom-section {
+  background: url(assets/images/paper.jpg);
+}
+
 
 .grey-text {
   color: #808184;
