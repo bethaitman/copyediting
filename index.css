@@ -8,12 +8,12 @@ body {
   background-size: cover;
 }
 
+
 .Header {
   font-weight: bold;
 }
 
 .Header .pure-menu-heading {
-	padding: 0 20px;
   border-right: 1px solid;
 }
 
@@ -30,6 +30,7 @@ body {
 .Header .pure-menu-link.active {
   color: #009cde;
 }
+
 
 .content {
 	padding: 40px 20%;
