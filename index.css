@@ -3,12 +3,6 @@
 	box-sizing: border-box;
 }
 
-body {
-  background: url(assets/images/notebook.jpg);
-  background-size: cover;
-}
-
-
 .Header {
   font-weight: bold;
 }
@@ -36,6 +30,9 @@ body {
 	padding: 40px 20%;
 }
 
+.top-section {
+  background: url(assets/images/notebook.jpg);
+  background-size: cover;
 }
 
 
