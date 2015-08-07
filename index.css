@@ -3,7 +3,7 @@
 	box-sizing: border-box;
 }
 
-.Header {
+header {
   font-weight: bold;
   position: fixed;
   top: 0;
@@ -11,31 +11,51 @@
   right: 0;
 }
 
-.Header .pure-menu-heading {
+header .pure-menu-heading {
   border-right: 1px solid;
 }
 
-.Header .pure-menu-link {
+header .pure-menu-link {
   text-decoration: none;
 }
 
-.Header .pure-menu-link:hover {
+header .pure-menu-link:hover {
   transition: color 1s cubic-bezier(0.24,.8,.55,.94);
   color: white;
   background-color: rgba(0,0,0,0);
 }
 
-.Header .pure-menu-link.active {
+header .pure-menu-link.active {
   color: #009cde;
 }
 
-.wrapper {
-
-}
 
 
 .content {
 	padding: 70px 40%;
+}
+
+@media all and (min-device-width:320px) and (max-device-width: 500px) {
+  header .pure-menu p, header .pure-menu a {
+    font-size: 40px;
+  }
+  
+  h1 {
+    font-size: 40px;
+  }
+
+  h2, h3 {
+    font-size: 30px;
+  }
+
+
+  p, a, li {
+    font-size: 25px;
+  }
+
+  .content {
+    padding: 200px 10%;
+  }
 }
 
 .top-section {
