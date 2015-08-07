@@ -35,7 +35,7 @@ header .pure-menu-link.active {
 	padding: 70px 40%;
 }
 
-@media all and (min-device-width:320px) and (max-device-width: 500px) {
+@media all and (min-device-width:320px) and (max-device-width: 500px) and (orientation:portrait) {
   header .pure-menu p, header .pure-menu a {
     font-size: 40px;
   }
@@ -55,6 +55,10 @@ header .pure-menu-link.active {
 
   .content {
     padding: 200px 10%;
+  }
+
+  .content.top-section {
+   background-size: 250% 200%;
   }
 }
 
